@@ -25,32 +25,35 @@ S3・IAM・EC2・CloudTrailの設定ミスを自動検出。12種類のルール
 ---
 
 ### InfraScore JP — AWSインフラ健全性スコアリングSaaS
+[![Tests](https://github.com/yorosiku008/infrascore-cli/actions/workflows/test.yml/badge.svg)](https://github.com/yorosiku008/infrascore-cli/actions)
 
 可用性(35%)・パフォーマンス(25%)・セキュリティ(25%)・コスト効率(15%)の4軸で100点スコアリング。CloudWatch/EC2/S3/RDS連携、MDレポート自動生成。
 
+- **LP:** https://yorosiku008.github.io/infrascore-lp/
+- **GitHub:** [yorosiku008/infrascore-cli](https://github.com/yorosiku008/infrascore-cli)
 - **CLI MVP:** `python main.py --demo` で即確認可能（AWS不要）
-- **対象:** AWS / MSPマルチテナント
-- **料金:** ¥30,000〜/月
 
 ---
 
 ### SupplyGuard JP — サプライチェーンセキュリティ評価SaaS
+[![Tests](https://github.com/yorosiku008/supplyguard-cli/actions/workflows/test.yml/badge.svg)](https://github.com/yorosiku008/supplyguard-cli/actions)
 
 SBOM/CVE(45%)・アンケート(35%)・インシデント履歴(20%)の3軸でベンダーリスクを定量評価。EU CRA・経産省ガイドライン対応。
 
+- **LP:** https://yorosiku008.github.io/supplyguard-lp/
+- **GitHub:** [yorosiku008/supplyguard-cli](https://github.com/yorosiku008/supplyguard-cli)
 - **CLI MVP:** `python main.py --demo` で3社比較デモ（外部API不要）
-- **対象:** 製造業・IT企業（取引先50〜500社規模）
-- **料金:** ¥150,000〜/月
 
 ---
 
 ### ZeroVis JP — ゼロトラスト可視化・コンプライアンス管理SaaS
+[![Tests](https://github.com/yorosiku008/zerovis-cli/actions/workflows/test.yml/badge.svg)](https://github.com/yorosiku008/zerovis-cli/actions)
 
 NIST SP 800-207準拠。ID(35%)・デバイス(25%)・アプリ(25%)・ネットワーク(15%)の4軸でZT成熟度スコアリング。NISC・総務省ガイドライン自動チェック。IT導入補助金申請書をAIがワンクリック生成。
 
+- **LP:** https://yorosiku008.github.io/zerovis-lp/
+- **GitHub:** [yorosiku008/zerovis-cli](https://github.com/yorosiku008/zerovis-cli)
 - **CLI MVP:** `python main.py --demo --org-type municipal` （自治体・製造業・医療・金融対応）
-- **対象:** 地方自治体・中堅製造業・医療機関・地銀
-- **料金:** ¥50,000〜/月（IT導入補助金適用で実質負担最大2/3削減）
 
 ---
 
